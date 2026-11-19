@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Oswald:wght@700&display=swap');
+
+body {
+    margin: 0;
+    color: #fff5e9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    min-height: 550px;
+    overflow: hidden;
+    background: radial-gradient(circle, #85323c, #591820);
+}
+
+h1 {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 250px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
+.surname, .firstname {
+    position: absolute;
+    top: 42%;
+    margin: 0;
+    font-size: 75px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.surname {
+    left: 7%;
+}
+
+.firstname {
+    right: 6%;
+}
+
+.photo {
+    position: absolute;
+    bottom: 0;
+    left: 32%;
+    height: 76%;
+}
+
+.profession, .skills {
+    position: absolute;
+    bottom: 35px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profession {
+    left: 8%;
+}
+
+.skills {
+    right: 8%;
+}
